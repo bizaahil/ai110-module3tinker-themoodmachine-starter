@@ -50,6 +50,16 @@ SAMPLE_POSTS = [
     "This is fine",
     "So excited for the weekend",
     "I am not happy about this",
+    "lowkey stressed but highkey proud of myself",
+    "i absolutely love getting stuck in traffic 🙃",
+    "no cap this is the best day ever",
+    "ngl kinda over this week 💀",
+    "just vibing, nothing special happening",
+    "so tired but also kinda excited??",
+    "this meeting could've been an email 😂",
+    "I guess it's fine, whatever",
+    "not gonna lie, today kinda sucked",
+    "can't stop smiling rn, best news ever!! 🥳",
 ]
 
 # Human labels for each post above.
@@ -65,6 +75,16 @@ TRUE_LABELS = [
     "neutral",   # "This is fine"
     "positive",  # "So excited for the weekend"
     "negative",  # "I am not happy about this"
+    "mixed",     # "lowkey stressed but highkey proud of myself"
+    "negative",  # "i absolutely love getting stuck in traffic 🙃" (sarcasm)
+    "positive",  # "no cap this is the best day ever"
+    "negative",  # "ngl kinda over this week 💀"
+    "neutral",   # "just vibing, nothing special happening"
+    "mixed",     # "so tired but also kinda excited??"
+    "negative",  # "this meeting could've been an email 😂" (sarcasm)
+    "neutral",   # "I guess it's fine, whatever"
+    "negative",  # "not gonna lie, today kinda sucked"
+    "positive",  # "can't stop smiling rn, best news ever!! 🥳"
 ]
 
 # TODO: Add 5-10 more posts and labels.
